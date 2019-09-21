@@ -5,6 +5,7 @@ export default class MyDoc extends Document {
     return (
       <Html lang="en">
         <Head>
+          <title>Slack Contact Form</title>
           <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -26,6 +27,10 @@ export default class MyDoc extends Document {
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000" />
           <meta name="msapplication-TileColor" content="#000000" />
           <meta name="theme-color" content="#000000" />
+          <meta
+            name="description"
+            content="A demo contact form the receives messages with Slack"
+          />
         </Head>
         <body>
           <Main />

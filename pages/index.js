@@ -58,7 +58,13 @@ export default () => {
       <div className="container head">
         <div className="columns">
           <div className="column col-auto">
-            <img src="/logo.png" height="125" width="125" className="logo" />
+            <img
+              src="/logo.png"
+              height="125"
+              width="125"
+              className="logo"
+              alt="Logo with the letters JJ"
+            />
           </div>
           <div className="column col title">
             <h2>Send me a message on Slack</h2>
