@@ -1,0 +1,47 @@
+{
+  "name": "slack-contact-form",
+  "description": "Slack Contact Form",
+  "version": "1.0.0",
+  "author": "JJ Kasper <jj@jjsweb.site>",
+  "keywords": [
+    "Next.js",
+    "react",
+    "styled-jsx",
+    "slack"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ijjk/slack-contact-form"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "start": "next dev",
+    "build": "next build",
+    "format": "prettier --write \"**/*.js\" --ignore-path .gitignore"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run format",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.0.7-canary.4",
+    "normalize.css": "^8.0.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "spectre.css": "^0.5.8"
+  },
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}

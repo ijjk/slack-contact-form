@@ -1,0 +1,8 @@
+{
+  "build": {
+    "env": {
+      "SLACK_TOKEN": "@slack-token",
+      "CHANNEL_ID": "@slack-channel-id"
+    }
+  }
+}
