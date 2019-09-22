@@ -16,7 +16,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "start": "next dev",
+    "start": "next start",
     "build": "next build",
     "format": "prettier --write \"**/*.js\" --ignore-path .gitignore"
   },
